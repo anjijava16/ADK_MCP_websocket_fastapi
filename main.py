@@ -23,7 +23,7 @@ artifacts_service = InMemoryArtifactService()
 
 ct_server_params = StdioServerParameters(
     command="python",
-    args=["./mcp_server/cocktail.py"],
+    args=["./mcp/cocktail.py"],
 )
 
 
